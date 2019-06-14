@@ -1,7 +1,7 @@
 {
 	"name": "@taoqf/react-native-mqtt",
 	"description": "A library for the MQTT protocol",
-	"version": "3.0.1",
+	"version": "3.0.2",
 	"contributors": [
 		"Adam Rudd <adamvrr@gmail.com>",
 		"Matteo Collina <matteo.collina@gmail.com> (https://github.com/mcollina)",
