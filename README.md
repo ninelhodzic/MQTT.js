@@ -10,6 +10,10 @@
 MQTT.js is a client library for the [MQTT](http://mqtt.org/) protocol, written
 in JavaScript for node.js and the browser.
 
+This package is just for [react-native](https://facebook.github.io/react-native/). Make sure the protocol is `mqtt`, `mqtts`, or `ws`, `wss`.
+
+Note: `tcp` is not supported for now.
+
 * [Upgrade notes](#notes)
 * [Installation](#install)
 * [Example](#example)
@@ -62,7 +66,7 @@ MQTT v5 support is experimental as it has not been implemented by brokers yet.
 ## Installation
 
 ```sh
-npm install mqtt --save
+npm install @taoqf/react-native-mqtt --save
 ```
 
 <a name="example"></a>
@@ -71,7 +75,7 @@ npm install mqtt --save
 For the sake of simplicity, let's put the subscriber and the publisher in the same file:
 
 ```js
-var mqtt = require('mqtt')
+var mqtt = require('@taoqf/react-native-mqtt')
 var client  = mqtt.connect('mqtt://test.mosquitto.org')
 
 client.on('connect', function () {
