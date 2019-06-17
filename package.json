@@ -64,6 +64,7 @@
 		"net": false
 	},
 	"dependencies": {
+		"buffer": "^5.2.1",
 		"commist": "^1.0.0",
 		"concat-stream": "^1.6.2",
 		"end-of-stream": "^1.4.1",
